@@ -1,0 +1,1457 @@
+body{
+    margin: 0;
+    box-sizing: 0;
+    box-sizing: border-box;
+    background-color:black;
+    height: 1000px;
+   }
+
+nav{
+    background-color: rgba(0, 0, 0, 0.836);
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    
+
+}
+
+nav .home{
+    color: white;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+   text-decoration: none;
+   transition: 1s ease-in-out;
+}
+
+nav .home:hover{
+    color: rgb(0, 0, 0);
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    transform: scale(1.1);
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 5px 0px 15px rgb(0, 102, 255);
+    background-color: rgb(21, 109, 192);
+
+}
+
+nav .a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    float: right;
+    transition: 1s;
+    
+}
+
+
+nav .a:hover{
+   color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    float: right;
+    transform: translateY(-3px);
+    box-shadow: 5px 0px 15px rgb(0, 102, 255);
+    background-color: rgb(21, 109, 192);
+}
+
+
+
+
+/*face*/
+
+.homep{
+    height: 500px;
+    background-color: #1d4e75;
+    color: #ffffff;
+
+
+}
+
+
+.faceimage{
+    border: solid 4px white;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    margin-top: 90px;
+    margin-left: 300px;
+    transition: 1s ease-in-out;
+    float: left;
+  }
+
+.faceimage:hover{
+    border: solid 4px #31a8ff;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    margin-left: 300px;
+    transform: scale(1.1);
+    box-shadow: 5PX 5PX 5PX   rgba(49,168,255,0.4);
+   }
+
+.eu{
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.euu{
+    text-align: justify;
+    margin-top: -30px;
+}
+
+.als{
+    color:#31a8ff;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgba(49,168,255,0.4);
+    font-size: 40px;
+    margin-top: -30px;
+   
+}
+
+ 
+/*cartao oculto para o texto ao lado*/
+ .card{
+    border: 1px solid transparent;
+    height: 350px;
+    width: 500px;
+    float: right;
+    margin-right: 280px;
+
+ }
+
+ .bot1{
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 1px solid rgb(224, 209, 209);
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    padding: 20px;
+    transition: 1s ease-in;
+    display: inline-block;
+    margin-top: -20px;
+    float: left;
+ }
+
+ .bot1:hover{
+     margin-left: 200px;
+    border: 1px solid rgba(19, 32, 218, 0.904);
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    padding: 20px;
+    background-color: rgba(19, 112, 218, 0.904);
+    transform:translateY(-5px);
+    box-shadow: 5px 0px 15px rgba(12, 104, 224, 0.575);
+    float: left;
+    
+
+}
+
+.bot12{
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(224, 209, 209);
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    width: 150px;
+    height: 58px;
+    transition: 1s ease-in;
+    display: inline-block;
+    margin-top: -20px;
+    float: left;
+ }
+
+ .bot12:hover{
+     margin-left: 20px;
+    border: 1px solid rgba(19, 32, 218, 0.904);
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+     width: 150px;
+    height: 58px;
+    background-color: rgba(19, 112, 218, 0.904);
+    transform:translateY(-5px);
+    box-shadow: 5px 0px 15px rgba(12, 104, 224, 0.575);
+    float: left;
+    
+
+}
+
+/*Sobre mim*/
+
+.pagew{
+     background-color: #16233b;
+    color: #979292;
+
+}
+
+
+.cardft{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 70px;
+    transition: 1s ease-in-out;
+    float: left;
+}
+
+.cardft:hover{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 70px;
+    box-shadow: 10px 10px 5px #31a8ff;
+    transform: translateY(-5px);
+    float: left;
+}
+
+
+.mimclr{
+    color:#31a8ff;
+    font-weight: bold;
+    text-shadow: 5px 7px 15px rgba(49,168,255,0.4);
+    
+}
+
+.toph1{
+    margin-left: 70px;
+    font-size: 40px;
+    float: left;
+    color: white;
+}
+
+.p1mim{
+    margin-top:90px;
+    color: white;
+    margin-left: 70px;
+ 
+}
+
+.card2f{
+    border: 2px solid transparent;
+    border-radius: 2px;
+    margin-top: 120px;
+    margin-right: 370px;
+    width: 600px;
+    height: 500px;
+    float: right;
+    text-align: justify;
+}
+
+.cabh{
+    color: white;
+     margin-top: 500px;
+     margin-left:  560px;
+    
+}
+
+/*hobbies*/
+.table{
+    display: flex;
+    justify-content: center;
+
+}
+
+.bo1{
+    margin: 60px;
+    background-color: rgb(216, 213, 213);
+    width: 650px;
+    height: 340px;
+    border-radius: 20px;
+     transition: 1.2s;
+   
+}
+
+.bo1:hover{
+    margin: 60px;
+    background-color: rgba(54, 53, 53, 0.526);
+    width: 650px;
+    height: 340px;
+    box-shadow: 15px 5px 10px rgb(10, 71, 214);
+    border-radius: 20px;
+    transform: translateY(-20px);
+}
+
+.hr{
+    width: 100%;
+    border-color: rgb(21, 72, 226);
+    height: 3px;
+}
+
+.parag{
+    color: white;
+    text-align: justify;
+}
+
+
+ .bot2{
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 1px solid rgb(224, 209, 209);
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    transition: 1s ease-in;
+    display: inline-block;
+ }
+
+ .bot2:hover{
+     margin-left: 70px;
+    border: 1px solid rgba(19, 32, 218, 0.904);
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: rgba(19, 112, 218, 0.904);
+    transform:translateY(-5px);
+    box-shadow: 5px 0px 15px rgba(12, 104, 224, 0.575);
+    
+}
+
+.bot3{
+    margin-left: 480px;
+    margin-top: 20px;
+    border: 1px solid rgb(224, 209, 209);
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    transition: 1s ease-in;
+    display: inline-block;
+ }
+
+ .bot3:hover{
+     margin-left: 480px;
+    border: 1px solid rgba(19, 32, 218, 0.904);
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: rgba(19, 112, 218, 0.904);
+    transform:translateY(-5px);
+    box-shadow: 5px 0px 15px rgba(12, 104, 224, 0.575);
+    
+
+}
+
+/*rodape*/
+
+.rodape{
+    height: 200px;
+    width: 100%;
+    border: solid rgb(35, 45, 184) 1px;
+    margin-top: 720px;
+    background-color: #222222;
+    color: white;
+}
+
+.emrd{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+    border: 2px white solid;
+    border-radius: 100px;
+    padding: 5PX;
+    margin-top: -7px;
+    transition: 2s;
+   
+}
+
+.emrd:hover{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+    border: 2px white solid;
+    border-radius: 100px;
+    padding: 5PX;
+    margin-top: -7px;
+    border-color: rgb(9, 120, 255);
+
+   
+}
+
+
+/*Conctacto*/
+
+.cont{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    color: rgba(24, 54, 190, 0.897);
+
+   }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.newbox{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    width: 700px;
+}
+
+.newbox .title{
+    padding: 24px 32px;
+    font-size: 24px;
+    border-bottom: thin solid white;
+    color: rgba(24, 54, 190, 0.897);
+}
+
+.newbox form{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.newbox input,
+.newbox textarea{
+    width: calc(50% - 8px);
+    height: 48px;
+    border-radius: 8px;
+    border:  thin solid ;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    background-color: black;
+    border-color: white;
+    transition: 1s ease-in-out;
+    color: white;
+    }
+
+.newbox input:hover,
+.newbox textarea:hover{
+    width: calc(50% - 8px);
+    height: 48px;
+    border-radius: 8px;
+    border:  thin solid ;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    box-shadow: 10px 5px 7px blue;
+     background-color: black;
+    transform: scale(1.1);
+    border-color: rgb(15, 60, 227);
+}
+
+.newbox textarea{
+    width: 100%;
+    height: 170px;
+}
+
+.newbox textarea:hover{
+    width: 100%;
+    height: 170px;
+    box-shadow: 10px 5px 7px blue;
+}
+
+.bot{
+    width: 170px;
+    padding: 15px;
+    background-color: black;
+    border: 1px solid  white;
+    color: white;
+    transition: 2S;
+    border-radius: 10px;
+}
+
+
+.bot:hover{
+    width: 170px;
+    padding: 15px;
+    background-color: black;
+    border: 1px solid  white;
+    color: white;
+    transform: translateY(-5px);
+     background-color: rgba(19, 112, 218, 0.904);
+     box-shadow: 0px 5px 0px rgb(10, 98, 230);
+}
+
+.red{
+    border:white 1px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 500px;
+    transition: 1.5s ease-in-out;
+    float: left;
+}
+
+
+.red:hover{
+    border:rgb(17, 37, 220) 1px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 500px;
+   transform: translateY(-5px)
+}
+
+
+.red1{
+    border:white 1px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 30px;
+    transition: 1.5s ease-in-out;
+    float: left;
+}
+
+
+.red1:hover{
+    border:rgb(17, 37, 220) 1px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 30px;
+   transform: translateY(-5px)
+}
+
+
+
+.red2{
+    border:white 1px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 30px;
+    transition: 1.5s ease-in-out;
+    float: left;
+}
+
+
+.red2:hover{
+    border:rgb(17, 37, 220) 1px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 30px;
+   transform: translateY(-5px);
+   float: left;
+}
+
+
+
+
+/*formacao*/
+.formcab{
+    text-align: justify;
+    color: white;
+    margin-top: 170px;
+    font-size: 50px;
+}
+
+.parf{
+    color: white;
+}
+
+.fortab1{
+    width: 600px;
+    height: 200px;
+    border: solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: 1s;
+    float: left;
+
+}
+
+
+.fortab1:hover{
+    width: 600px;
+    height: 200px;
+    border: solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+    transform: translateY(-4px);
+    border-color: rgb(19, 98, 233);
+    float: left;
+}
+
+.fortab2{
+    width: 600px;
+    height: 200px;
+    border: solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: 1s;
+    float: left;
+
+}
+
+
+.fortab2:hover{
+    width: 600px;
+    height: 200px;
+    border: solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+    transform: translateY(-4px);
+    border-color: rgb(19, 98, 233);
+    float: left;
+}
+
+
+.fortab3{
+    width: 600px;
+    height: 200px;
+    border: solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: 1s;
+    margin-top: 100px;
+    float: left;
+
+}
+
+
+.fortab3:hover{
+    width: 600px;
+    height: 200px;
+    border: solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+    transform: translateY(-4px);
+    border-color: rgb(19, 98, 233);
+    float: left;
+}
+
+
+.fortab4{
+    width: 600px;
+    height: 200px;
+    border: solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: 1s;
+    margin-top: 100px;
+    float: left;
+
+}
+
+
+.fortab4:hover{
+    width: 600px;
+    height: 200px;
+    border: solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+    transform: translateY(-4px);
+    border-color: rgb(19, 98, 233);
+    float: left;
+}
+
+.Formacao{display: flow-root;
+
+}
+
+
+.ftstab{
+    height: 200px;
+    width: 270px;
+    border-radius: 13px;
+}
+
+
+.cert{
+    margin-left: 490px;
+    transform: translateY(-40px);
+    border-radius: 5px;
+    padding: 10px;
+    border-color: rgb(21, 90, 237);
+    background-color: white;
+    transition: 1s ease-in-out;
+  
+}
+
+.cabh1{
+    font-size: 50px;
+   color:#31a8ff;
+    margin-top: 320px;
+    margin-left: 70px;
+
+}
+
+
+.cert:hover{
+    margin-left: 490px;
+    border-radius: 2px;
+    padding: 10px;
+    border-color: rgb(21, 90, 237);
+   background-color: rgba(19, 112, 218, 0.904);
+    transform:translateY(-44px);
+    box-shadow: 5px 0px 15px rgba(12, 104, 224, 0.575);
+    }
+
+    /*habilidades*/
+
+    .hab12{
+        margin-top: 200px;
+        clear: both;
+    }
+    
+
+.table{
+    display: flex;
+    justify-content: center;
+
+}
+
+.pa{
+    margin: 60px;
+    background-color: rgba(44, 41, 41, 0.767);
+    width: 340px;
+    height: 220px;
+    border-radius: 20px;
+    transition: 1.7s;
+   
+}
+
+.pa:hover{
+    margin: 60px;
+    background-color: rgba(44, 41, 41, 0.767);
+    width: 340px;
+    height: 220px;
+    box-shadow: 0px 10px 0px blue;
+    border-radius: 20px;
+    transform: translateY(-5px);
+   
+}
+
+
+ 
+.card1>img{width: 100%;
+    height: 200px;
+    border-radius: 5%;
+    
+}
+
+.card2>img{width: 100%;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.card3>img{width: 100%;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.h1h{
+    margin-top: 50px;
+    color: white;
+}
+
+.cabh{
+    font-size: 30px;
+    text-align: justify;
+    color: rgb(242, 242, 249);
+    margin-left: 0;
+    margin-top: 50px;
+    clear: both;
+}
+
+
+
+/*projectos*/
+
+
+.color{
+    background-color: rgba(49, 47, 47, 0.904);
+}
+
+.top{
+    text-align: justify;
+    font-size: 40px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+
+}
+
+.bo{
+    margin: 60px;
+    background-color: rgba(44, 41, 41, 0.767);
+    width: 640px;
+    height: 380px;
+    box-shadow: rgb(63, 62, 62);
+    border-radius: 20px;
+     transition: 1s ease-in-out;
+   
+}
+
+.bo:hover{
+    margin: 60px;
+    background-color: rgba(44, 41, 41, 0.767);
+    width: 640px;
+    height: 380px;
+    border-radius: 20px;
+    transform: translateY(-7px);
+}
+
+
+ 
+.card1>img{width: 100%;
+    height: 200px;
+    
+}
+
+.card2>img{width: 100%;
+    height: 200px;
+}
+
+.card3>img{width: 100%;
+    height: 200px;
+}
+
+
+    .botpart1{
+    border: 1px solid rgb(224, 209, 209);
+    text-decoration: none;
+    margin-left: 230px;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    transition: 1s ease-in;
+    display: inline-block;
+}
+
+
+    
+    .botpart1:hover{
+    border: 1px solid rgb(14, 56, 204);
+    text-decoration: none;
+    margin-left: 230px;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    transform: translateY(-5px);
+    display: inline-block;
+    background-color: rgba(19, 112, 218, 0.904);
+     box-shadow: 5px 0px 15px rgba(12, 104, 224, 0.575);
+      border-color: rgb(21, 90, 237);
+
+     }
+
+     /*parte dois cards*/
+     .bo56{
+    border: solid 1px rgb(4, 4, 4);
+    width: 340px;
+    height: 420px;
+    float: left;
+    margin-left: 150px;
+    transition: 1s ease-in-out;
+    margin-top: 70px;
+    border-radius: 10px;
+     background-color: rgba(44, 41, 41, 0.767);
+
+     }
+
+     .bo56:hover{
+    border: solid 1px rgb(0, 0, 0);
+    width: 340px;
+    height: 420px;
+    float: left;
+    margin-left: 150px;
+    transform: translateY(-5px);
+    margin-top: 70px;
+    border-radius: 10px;
+     background-color: rgba(44, 41, 41, 0.767);
+
+     }
+
+     .bo57{
+    border: solid 1px rgb(4, 4, 4);
+    width: 340px;
+    height: 420px;
+    margin-left: 300px;
+    float: left;
+    transition: 1s ease-in-out;
+    margin-top: 70px;
+    border-radius: 10px;
+     background-color: rgba(44, 41, 41, 0.767);
+
+     }
+
+     .bo57:hover{
+    border: solid 1px rgb(0, 0, 0);
+    width: 340px;
+    height: 420px;
+    margin-left: 300px;
+    transform: translateY(-5px);
+    margin-top: 70px;
+    border-radius: 10px;
+     background-color: rgba(44, 41, 41, 0.767);
+
+     }
+
+     .card12>img{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+     }
+
+     
+    .botpart12{
+    border: 1px solid rgb(224, 209, 209);
+    text-decoration: none;
+    margin-left: 100px;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    transition: 1s ease-in;
+    display: inline-block;
+    float: left;
+}
+
+
+    
+    .botpart12:hover{
+    border: 1px solid rgb(14, 56, 204);
+    text-decoration: none;
+    margin-left: 100px;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    transform: translateY(-5px);
+    display: inline-block;
+    background-color: rgba(19, 112, 218, 0.904);
+     box-shadow: 5px 0px 15px rgba(12, 104, 224, 0.575);
+      border-color: rgb(21, 90, 237);
+      float: left;
+
+     }
+
+     .botpart13{
+    border: 1px solid rgb(224, 209, 209);
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    transition: 1s ease-in;
+    display: inline-block;
+    float: left;
+    
+}
+
+
+    
+    .botpart13:hover{
+    border: 1px solid rgb(14, 56, 204);
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    transform: translateY(-5px);
+    display: inline-block;
+    background-color: rgba(19, 112, 218, 0.904);
+     box-shadow: 5px 0px 15px rgba(12, 104, 224, 0.575);
+      border-color: rgb(21, 90, 237);
+      float: left;
+
+     }
+
+
+
+     /*Refino*/
+     html{
+        scroll-behavior:smooth;
+     }
+
+     section{
+        scroll-margin-top: 80px;
+
+     }
+
+/* =========================================================
+   RESPONSIVO
+   Nada acima desta linha foi alterado — o design original
+   em ecrãs grandes (desktop) fica exactamente igual.
+   As regras abaixo só entram em ação em ecrãs mais pequenos.
+========================================================= */
+
+img{
+    max-width: 100%;
+}
+
+/* ---------- Tablet / ecrã médio (<=1024px) ---------- */
+@media (max-width: 1024px){
+
+    .faceimage{
+        margin-left: 40px;
+    }
+
+    .faceimage:hover{
+        margin-left: 40px;
+    }
+
+    .card{
+        margin-right: 40px;
+        width: 420px;
+    }
+
+    .card2f{
+        margin-right: 40px;
+        width: 420px;
+    }
+
+    .cardft{
+        margin-left: 40px;
+    }
+
+    .cardft:hover{
+        margin-left: 40px;
+    }
+
+    .bo1{
+        width: 45%;
+        margin: 20px;
+    }
+
+    .bo1:hover{
+        width: 45%;
+        margin: 20px;
+    }
+
+    .bo{
+        width: 45%;
+        margin: 20px;
+    }
+
+    .bo:hover{
+        width: 45%;
+        margin: 20px;
+    }
+
+    .pa{
+        width: 28%;
+        margin: 20px;
+    }
+
+    .pa:hover{
+        width: 28%;
+        margin: 20px;
+    }
+
+    .table{
+        flex-wrap: wrap;
+    }
+
+    .fortab1, .fortab2, .fortab3, .fortab4{
+        width: calc(100% - 40px);
+        height: auto;
+        padding-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .fortab1:hover, .fortab2:hover, .fortab3:hover, .fortab4:hover{
+        width: calc(100% - 40px);
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .fortab3, .fortab3:hover, .fortab4, .fortab4:hover{
+        margin-top: 20px;
+    }
+
+    .ftstab{
+        width: 220px;
+        height: 170px;
+    }
+
+    .cert{
+        margin-left: 20px;
+        float: left;
+        clear: both;
+        transform: translateY(0);
+    }
+
+    .cert:hover{
+        margin-left: 20px;
+        transform: translateY(-4px);
+    }
+
+    .cabh{
+        margin-left: 40px;
+    }
+
+    .bo56{
+        margin-left: 40px;
+    }
+
+    .bo56:hover{
+        margin-left: 40px;
+    }
+
+    .bo57{
+        margin-left: 40px;
+    }
+
+    .bo57:hover{
+        margin-left: 40px;
+    }
+
+    .newbox{
+        width: 90%;
+    }
+
+    .rodape{
+        margin-top: 40px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+/* ---------- Tablet pequeno / telemóvel grande (<=768px) ---------- */
+@media (max-width: 768px){
+
+    nav{
+        position: fixed;
+    }
+
+    nav .home, nav .a{
+        float: none;
+        display: block;
+        text-align: center;
+        padding: 12px;
+    }
+
+    nav .home:hover, nav .a:hover{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    body{
+        height: auto;
+    }
+
+    .homep{
+        height: auto;
+        padding-bottom: 40px;
+        overflow: hidden;
+    }
+
+    nav ~ .faceimage,
+    .faceimage{
+        float: none;
+        display: block;
+        margin: 220px auto 0;
+    }
+
+    .faceimage:hover{
+        margin: 220px auto 0;
+    }
+
+    .card{
+        float: none;
+        width: 88%;
+        height: auto;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .eu, .als{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    .euu{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .bot1{
+        float: none;
+        margin: 20px auto 0;
+        display: table;
+    }
+
+    .bot1:hover{
+        margin: 20px auto 0;
+        float: none;
+    }
+
+    .bot12{
+        float: none;
+        margin: 15px auto 0;
+        display: block;
+        width: 180px;
+    }
+
+    .bot12:hover{
+        margin: 15px auto 0;
+        float: none;
+        width: 180px;
+    }
+
+    .pagew{
+        overflow: hidden;
+    }
+
+    .cardft, .cardft:hover{
+        float: none;
+        margin: 100px auto 0;
+    }
+
+    .card2f{
+        float: none;
+        width: 88%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .toph1, .p1mim{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .toph1{
+        float: none;
+    }
+
+    .p1mim{
+        margin-top: 20px;
+    }
+
+    .cabh1{
+        margin-left: 0;
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .table{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bo1, .bo1:hover,
+    .bo, .bo:hover,
+    .pa, .pa:hover{
+        width: 88%;
+        margin: 15px auto;
+    }
+
+    .Formacao{
+        margin-top: 0;
+    }
+
+    .formcab{
+        margin-top: 40px;
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .fortab1, .fortab1:hover,
+    .fortab2, .fortab2:hover,
+    .fortab3, .fortab3:hover,
+    .fortab4, .fortab4:hover{
+        float: none;
+        width: 88%;
+        height: auto;
+        margin: 20px auto;
+        padding-bottom: 15px;
+    }
+
+    .ftstab{
+        float: none !important;
+        display: block;
+        margin: 15px auto 0;
+    }
+
+    .cert{
+        float: none;
+        margin: 15px auto 0;
+        display: table;
+        transform: translateY(0);
+    }
+
+    .cert:hover{
+        margin: 15px auto 0;
+        transform: translateY(-4px);
+    }
+
+    .hab12{
+        margin-top: 40px;
+    }
+
+    .cabh{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .top{
+        margin-left: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .bo56, .bo56:hover,
+    .bo57, .bo57:hover{
+        float: none;
+        width: 88%;
+        height: auto;
+        margin: 20px auto;
+        padding-bottom: 15px;
+    }
+
+    .botpart1, .botpart1:hover{
+        margin-left: 0;
+        display: table;
+        margin: 10px auto 0;
+    }
+
+    .botpart12, .botpart12:hover,
+    .botpart13, .botpart13:hover{
+        float: none;
+        margin: 10px auto;
+        display: table;
+    }
+
+    .cont{
+        margin-top: 90px;
+    }
+
+    .container{
+        height: auto;
+        padding: 20px 0 60px;
+    }
+
+    .newbox{
+        width: 90%;
+    }
+
+    .newbox input, .newbox textarea,
+    .newbox input:hover, .newbox textarea:hover{
+        width: 100%;
+    }
+
+    .red{
+        margin-left: 20px;
+    }
+
+    .red:hover{
+        margin-left: 20px;
+    }
+
+    .red1, .red2{
+        margin-left: 15px;
+    }
+
+    .red1:hover, .red2:hover{
+        margin-left: 15px;
+    }
+
+    .rodape{
+        margin-top: 30px;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .rodape p{
+        float: none !important;
+    }
+}
+
+/* ---------- Telemóvel (<=480px) ---------- */
+@media (max-width: 480px){
+
+    .faceimage{
+        width: 180px;
+        height: 180px;
+        margin-top: 190px;
+    }
+
+    .faceimage:hover{
+        width: 180px;
+        height: 180px;
+    }
+
+    .eu, .als{
+        font-size: 24px;
+    }
+
+    .cardft, .cardft:hover{
+        width: 90%;
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .toph1{
+        font-size: 32px;
+    }
+
+    .cabh1{
+        font-size: 26px;
+    }
+
+    .formcab{
+        font-size: 26px;
+    }
+
+    .top{
+        font-size: 24px;
+    }
+
+    .bo1, .bo1:hover,
+    .bo, .bo:hover{
+        width: 95%;
+    }
+
+    .pa, .pa:hover{
+        width: 95%;
+        height: auto;
+    }
+
+    .fortab1, .fortab1:hover,
+    .fortab2, .fortab2:hover,
+    .fortab3, .fortab3:hover,
+    .fortab4, .fortab4:hover,
+    .bo56, .bo56:hover,
+    .bo57, .bo57:hover{
+        width: 95%;
+    }
+
+    .newbox .title{
+        font-size: 20px;
+        padding: 16px 20px;
+    }
+
+    .newbox form{
+        padding: 16px;
+    }
+}
